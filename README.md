@@ -1,10 +1,8 @@
 # VRStoryGram
 ***Community voices become world voices through sharing the effects of local environmental changes using VRStoryGram.***
 
-A project  supporting communities on the front lines of environmental change tell their stories using oral histories and virtual reality so that they can be shared openly with students, local officials, and policymakers, so we all learn more about what it means to sustain vibrant lives on a changing planet.
 
-
-This document (the README file) is a hub to give you some information about the project. Jump straight to one of the sections below, or just scroll down to find out more.
+This the README file is a hub to give you some information about the project. Jump straight to one of the sections below, or just scroll down to find out more.
 
 * [What are we doing? (And why?)](#what-are-we-doing)
 * [Who are we?](#who-are-we)
@@ -16,13 +14,16 @@ This document (the README file) is a hub to give you some information about the 
 
 ## What are we doing?
 
-### The problem
+VRStoryGram is a project that supports communities on the front lines of environmental change tell their stories using oral histories and virtual reality so that they can be shared openly with students, local officials, and policymakers, so we all learn more about what it means to sustain vibrant lives on a changing planet.
 
-* Women and other minorities are less likely to be invited to speak at academic and tech conferences
-* Women are less likely to promote themselves: they are more likely to suffer from the [imposter syndrome][link_impostersyndrome]
-* It's difficult for conference organisers to know how good an invited speaker will be if they haven't seen them present before
+We are adapting a VR content management system (CMS) to collect, store, and analyze all VR content in a centralized location. The open source product we are starting with is [IdeaSpaceVR][link_IdeaSpaceVR].
 
-So, if even the very best intentioned conference organisers (who know the powerful and supportive effects that seeing a diverse panel of presenters have for under-represented groups) have mostly seen presentations by (straight, white, cis-gendered) men then they're likely to invite men again. And so the cycle continues.
+### The problems
+
+* Local environmental changes are not told from the perspective of the communities who are affected
+* Students have a hard time grasping how the changing climate is affecting them personally
+* There is no product that is easy to use and lets communities and students tell their own personal stories in a virtual world
+
 
 ### The solution
 
@@ -104,3 +105,4 @@ Thank you so much (Danke schön! Merci beaucoup!) for visiting the project and w
 [link_Julien]: https://www.linkedin.com/in/julienbonin
 [link_Rute]: https://aariops.github.io/
 [link_openleaderscohort]: https://foundation.mozilla.org/en/opportunity/mozilla-open-leaders/
+[link_IdeaSpaceVR]: https://www.ideaspacevr.org/
