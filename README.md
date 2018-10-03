@@ -4,13 +4,6 @@
 A project  supporting communities on the front lines of environmental change tell their stories using oral histories and virtual reality so that they can be shared openly with students, local officials, and policymakers, so we all learn more about what it means to sustain vibrant lives on a changing planet.
 
 
-
-## Welcome!
-
-First and foremost, Welcome! :tada: Willkommen! :confetti_ball: Bienvenue! :balloon::balloon::balloon:
-
-Thank you for visiting the STEMM Role Models app project repository.
-
 This document (the README file) is a hub to give you some information about the project. Jump straight to one of the sections below, or just scroll down to find out more.
 
 * [What are we doing? (And why?)](#what-are-we-doing)
@@ -43,7 +36,7 @@ Everyone in the database will have the opportunity to identify themselves as one
 
 ## Who are we?
 
-The founders of the STEMM Role Models app - [Kirstie][link_KirstieJane], [Amy][link_Amy], [Erin][link_Erin] and [Elizabeth][link_Elizabeth] - are friends from their time in graduate school at [UC Berkeley][link_ucberkeley]. There's more information about them (and some pictures) in the [MeetTheTeam](MeetTheTeam.md) file.
+The founder of VRStoryGram - [Heather][link_Heather], [Amy][link_Amy], [Erin][link_Erin] and [Elizabeth][link_Elizabeth] - are friends from their time in graduate school at [UC Berkeley][link_ucberkeley]. Also working on VRStoryGram is [Kary][link_Kary]  and [Julien][link_Julien] more information about them (and some pictures) in the [MeetTheTeam](MeetTheTeam.md) file.
 
 The development of this app is mentored by the team behind the [Rosalind Franklin Appathon][link_rfappapthon] - a challenge launched in 2015 to find and support the development of new mobile phone apps to empower women in STEMM. The competition is funded by the [Royal Society's Rosalind Franklin award][link_royalsociety_rfaward] which was won in 2014 by the Prof [Rachel McKendry][link_rachelmckendry]. Check out her [awesome lecture][link_rachelmckendry_talk] on _Harnessing the power of mobile phones and big data for global health_.
 
@@ -108,10 +101,10 @@ Thank you so much (Danke schön! Merci beaucoup!) for visiting the project and w
 * **Issue**: the GitHub term for tasks, enhancements, and bugs for your projects
 
 
-[link_ucberkeley]: http://www.berkeley.edu/
-[link_kirstiejane]: https://github.com/KirstieJane
-[link_amy]: https://github.com/neuroAmyo
-[link_erin]: https://github.com/erich001
+
+[link_Heather]: http://www.drhstone.com
+[link_Kary]: https://www.linkedin.com/in/kary-ritter-025ba633
+[link_Julien]: https://www.linkedin.com/in/julienbonin
 [link_elizabeth]: https://github.com/elizabethjm
 [link_rfappapthon]: http://www.rfappathon.org/
 [link_royalsociety_rfaward]: https://royalsociety.org/grants-schemes-awards/awards/rosalind-franklin-award/
