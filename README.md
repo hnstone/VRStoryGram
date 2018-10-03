@@ -16,9 +16,8 @@ This the README file is a hub to give you some information about the project. Ju
 
 VRStoryGram is a project that supports communities on the front lines of environmental change tell their stories using oral histories and virtual reality so that they can be shared openly with students, local officials, and policymakers, so we all learn more about what it means to sustain vibrant lives on a changing planet.
 
-We are adapting a VR content management system (CMS) to collect, store, and analyze all VR content in a centralized location. The open source product we are starting with is [IdeaSpaceVR][link_IdeaSpaceVR].
 
-### The problems
+### Why Our Work is Important
 
 * Local environmental changes are not told from the perspective of the communities who are affected
 * Students have a hard time grasping how the changing climate is affecting them personally
@@ -27,13 +26,14 @@ We are adapting a VR content management system (CMS) to collect, store, and anal
 
 ### The solution
 
-The STEMM Role Models app will:
+VRStoryGram will adapt a VR content management system (CMS) to collect, store, and analyze all VR content in a centralized location. The open source product we are starting with is [IdeaSpaceVR][link_IdeaSpaceVR].
 
-* Improve visibility for researchers and developers by making a database that is easy to search with customizable keywords
-* Allow anyone to add researchers so the database can grow without relying on women promoting themselves
-* Provide information that is useful for making decisions on key note invitations such as links to blogs, social media, journal articles, youtube clips, a list of previous invited presentations and testimonials.
+Our goal is to:
+* Allow for 360 degree images and video to be uploaded onto the system
+* Offer drag-and-drop editing capabilities
+* Manage all created content within the platform
+* Publish VR experiences from the solution
 
-Everyone in the database will have the opportunity to identify themselves as one or more of a selection of different under-represented groups in STEMM. The goal is to ensure that ***conference organisers are able to access a diverse and representative group of the most exciting researchers in their field from around the world***.
 
 ## Who are we?
 
