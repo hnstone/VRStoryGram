@@ -9,7 +9,6 @@ This the README file is a hub to give you some information about the project. Ju
 * [What do we need?](#what-do-we-need)
 * [How can you get involved?](#get-involved)
 * [Get in touch](#contact-us)
-* [Understand the jargon](#glossary)
 
 ## WHAT IS VRSTORYGRAM?
 
