@@ -9,22 +9,21 @@ This the README file is a hub to give you some information about the project. Ju
 * [What do we need?](#what-do-we-need)
 * [How can you get involved?](#get-involved)
 * [Get in touch](#contact-us)
-* [Find out more](#find-out-more)
 * [Understand the jargon](#glossary)
 
-## What are we doing?
+## WHAT IS VRSTORYGRAM?
 
 VRStoryGram is a project that supports communities on the front lines of environmental change tell their stories using oral histories and virtual reality so that they can be shared openly with students, local officials, and policymakers, so we all learn more about what it means to sustain vibrant lives on a changing planet.
 
 
-### Why Our Work is Important
+### WHY OUR WORK IS IMPORTANT
 
 * Local environmental changes are not told from the perspective of the communities who are affected
 * Students have a hard time grasping how the changing climate is affecting them personally
 * There is no product that is easy to use and lets communities and students tell their own personal stories in a virtual world
 
 
-### The solution
+### OUR SOLUTION
 
 VRStoryGram will adapt a VR content management system (CMS) to collect, store, and analyze all VR content in a centralized location. The open source product we are starting with is [IdeaSpaceVR][link_IdeaSpaceVR].
 
@@ -35,7 +34,7 @@ Our goal is to:
 * Publish VR experiences from the solution
 
 
-## Who are we?
+## WHO IS ON THE TEAM?
 
 The founder of VRStoryGram - [Heather][link_Heather], is an invited member of the [Open Leaders Cohort][link_openleaderscohort] Also working on VRStoryGram are [Kary][link_Kary] and [Julien][link_Julien].
 
@@ -49,7 +48,7 @@ The development of VRStoryGram is mentored by the [Rute][link_Rute] - a challeng
   </img>
 </a>
 
-## What do we need?
+## HOW CAN YOU HELP?
 
 **You**! In whatever way you can help.
 
@@ -59,44 +58,22 @@ We'd love your feedback along the way, and of course, we'd love you to be **in t
 
 Our primary goal is to support women in STEMM and while the app is aimed at conference organisers, we're excited to plug another hole in the leaky pipeline by supporting the professional development of any and all of our contributors. If you're looking to learn to code, try out working collaboratively, get some experience writing grant applications or translate you skills to the digital domain, we're here to help.
 
-## Get involved
+## GET INVOLVED
 
 If you think you can help in any of the areas listed above (and we bet you can) or in any of the many areas that we haven't yet thought of (and here we're *sure* you can) then please check out our [contributors' guidelines](CONTRIBUTING.md) and our [roadmap](../../issues/1).
 
 Please note that it's very important to us that we maintain a positive and supportive environment for everyone who wants to participate. When you join us we ask that you follow our [code of conduct](CODE_OF_CONDUCT.md) in all interactions both on and offline.
 
 
-## Contact us
+## CONTACT US
 
 If you want to report a problem or suggest an enhancement we'd love for you to [open an issue](../../issues) at this github repository because then we can get right on it. But you can also contact [Heather][link_Heather] by email (hstone AT louisiana DOT edu) or on [twitter](https://twitter.com/_drhstone).
 
 
-## Find out more
-
-You might be interested in:
-
-* Our applications to the Rosalind Franklin Appathon: [ApplicationMaterials_FirstRound.md](ApplicationMaterials/RFAppathon/ApplicationMaterials_FirstRound.md) and [ApplicationMaterials_SecondRound.md](ApplicationMaterials/RFAppathon/ApplicationMaterials_SecondRound.md)
-* An example profile: [ProfileExample.md](ProfileExample.md)
-* Our [Lean Canvas business plan][link_leancanvas]
-
-And of course, you'll want to know our:
-
-* [Contributors' guidelines](CONTRIBUTING.md)
-* [Roadmap](../../issues/1)
-
-
-## Thank you
+## THANK YOU
 
 Thank you so much (Danke schön! Merci beaucoup!) for visiting the project and we do hope that you'll join us on this amazing journey to support women and other under-represented groups in STEMM.
 
-## Glossary
-
-* **STEMM**: Science, technology, engineering, mathematics and medicine
-* **README file**: a document that introduces an open project to the public and any potential contributors
-* **repository** or **repo**: a collection of documents related to your project, in which you create and save new code or content
-* **Roadmap**: a document outlining the schedule of work to be done on a project
-* **Milestone**: an event or state marking a specific stage in development on the project
-* **Issue**: the GitHub term for tasks, enhancements, and bugs for your projects
 
 
 
