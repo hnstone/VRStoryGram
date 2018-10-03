@@ -37,8 +37,6 @@ Our goal is to:
 
 The founder of VRStoryGram - [Heather][link_Heather], is an invited member of the [Open Leaders Cohort][link_openleaderscohort] Also working on VRStoryGram are [Kary][link_Kary] and [Julien][link_Julien].
 
-The development of VRStoryGram is mentored by the [Rute][link_Rute] - a challenge launched in 2015 to find and support the development of new mobile phone apps to empower women in STEMM. 
-
 <a href="https://www.mozillascience.org/about">
   <img
     src="http://mozillascience.github.io/working-open-workshop/assets/images/science-fox.svg"
@@ -51,11 +49,8 @@ The development of VRStoryGram is mentored by the [Rute][link_Rute] - a challeng
 
 **You**! In whatever way you can help.
 
-We need expertise in fundraising, app development, user experience design, database maintenance (particularly ensuring the highest quality data protection plans are in place), software sustainability, documentation and technical writing and project management.
+We need expertise in software development, user experience design, database maintenance (particularly ensuring the highest quality data protection plans are in place), software sustainability, documentation and technical writing and project management.
 
-We'd love your feedback along the way, and of course, we'd love you to be **in the database** once it exists.
-
-Our primary goal is to support women in STEMM and while the app is aimed at conference organisers, we're excited to plug another hole in the leaky pipeline by supporting the professional development of any and all of our contributors. If you're looking to learn to code, try out working collaboratively, get some experience writing grant applications or translate you skills to the digital domain, we're here to help.
 
 ## GET INVOLVED
 
