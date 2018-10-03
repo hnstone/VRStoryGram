@@ -37,7 +37,7 @@ Our goal is to:
 
 The founder of VRStoryGram - [Heather][link_Heather], is an invited member of the [Open Leaders Cohort][link_openleaderscohort] Also working on VRStoryGram are [Kary][link_Kary] and [Julien][link_Julien].
 
-The development of VRStoryGram is mentored by the [Rute][link_Rute] - a challenge launched in 2015 to find and support the development of new mobile phone apps to empower women in STEMM. The competition is funded by the [Royal Society's Rosalind Franklin award][link_royalsociety_rfaward] which was won in 2014 by the Prof [Rachel McKendry][link_rachelmckendry]. Check out her [awesome lecture][link_rachelmckendry_talk] on _Harnessing the power of mobile phones and big data for global health_.
+The development of VRStoryGram is mentored by the [Rute][link_Rute] - a challenge launched in 2015 to find and support the development of new mobile phone apps to empower women in STEMM. 
 
 <a href="https://www.mozillascience.org/about">
   <img
