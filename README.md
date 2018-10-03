@@ -36,9 +36,9 @@ Everyone in the database will have the opportunity to identify themselves as one
 
 ## Who are we?
 
-The founder of VRStoryGram - [Heather][link_Heather], [Amy][link_Amy], [Erin][link_Erin] and [Elizabeth][link_Elizabeth] - are friends from their time in graduate school at [UC Berkeley][link_ucberkeley]. Also working on VRStoryGram is [Kary][link_Kary]  and [Julien][link_Julien] more information about them (and some pictures) in the [MeetTheTeam](MeetTheTeam.md) file.
+The founder of VRStoryGram - [Heather][link_Heather], is an invited member of the [Open Leaders Cohort][link_openleaderscohort] Also working on VRStoryGram are [Kary][link_Kary] and [Julien][link_Julien].
 
-The development of this app is mentored by the team behind the [Rosalind Franklin Appathon][link_rfappapthon] - a challenge launched in 2015 to find and support the development of new mobile phone apps to empower women in STEMM. The competition is funded by the [Royal Society's Rosalind Franklin award][link_royalsociety_rfaward] which was won in 2014 by the Prof [Rachel McKendry][link_rachelmckendry]. Check out her [awesome lecture][link_rachelmckendry_talk] on _Harnessing the power of mobile phones and big data for global health_.
+The development of VRStoryGram is mentored by the [Rute][link_Rute] - a challenge launched in 2015 to find and support the development of new mobile phone apps to empower women in STEMM. The competition is funded by the [Royal Society's Rosalind Franklin award][link_royalsociety_rfaward] which was won in 2014 by the Prof [Rachel McKendry][link_rachelmckendry]. Check out her [awesome lecture][link_rachelmckendry_talk] on _Harnessing the power of mobile phones and big data for global health_.
 
 <a href="https://www.mozillascience.org/about">
   <img
@@ -47,8 +47,6 @@ The development of this app is mentored by the team behind the [Rosalind Frankli
     width=140
   </img>
 </a>
-
-[Kirstie][link_kirstiejane] is an invited member of the inaugural [Open Leaders Cohort][link_openleaderscohort] of the [Mozilla Science Lab][link_mozsci] who brought together open science advocates from around the world to participate in the first [Working Open Workshop][link_mozwow] in Berlin in February 2016. The [training exercises][link_mozwow] (which are free and easy to reuse) focused on how to build and effectively engage communities so they can work together to develop tools and resources for the greater good.
 
 ## What do we need?
 
@@ -69,9 +67,8 @@ Please note that it's very important to us that we maintain a positive and suppo
 
 ## Contact us
 
-If you want to report a problem or suggest an enhancement we'd love for you to [open an issue](../../issues) at this github repository because then we can get right on it. But you can also contact [Kirstie][link_kirstiejane] by email (kw401 AT cam DOT ac DOT uk) or on [twitter](https://twitter.com/kirstie_j).
+If you want to report a problem or suggest an enhancement we'd love for you to [open an issue](../../issues) at this github repository because then we can get right on it. But you can also contact [Heather][link_Heather] by email (hstone AT louisiana DOT edu) or on [twitter](https://twitter.com/_drhstone).
 
-You can also hang out, ask questions and share stories in the [STEMMRoleModels room](https://gitter.im/KirstieJane/STEMMRoleModels) on Gitter.
 
 ## Find out more
 
@@ -105,14 +102,5 @@ Thank you so much (Danke schön! Merci beaucoup!) for visiting the project and w
 [link_Heather]: http://www.drhstone.com
 [link_Kary]: https://www.linkedin.com/in/kary-ritter-025ba633
 [link_Julien]: https://www.linkedin.com/in/julienbonin
-[link_elizabeth]: https://github.com/elizabethjm
-[link_rfappapthon]: http://www.rfappathon.org/
-[link_royalsociety_rfaward]: https://royalsociety.org/grants-schemes-awards/awards/rosalind-franklin-award/
-[link_rachelmckendry]: https://www.ucl.ac.uk/tb/people/steering-group/rachel-mckendry
-[link_rachelmckendry_talk]: https://royalsociety.org/events/2014/11/rosalind-franklin-lecture/
-[link_openleaderscohort]: https://www.mozillascience.org/wow-introducing-working-open-workshops-and-the-open-leaders-cohort
-[link_mozsci]: https://www.mozillascience.org/about
-[link_mozwow]: http://mozillascience.github.io/working-open-workshop/index.html
-[link_researchfox]: http://mozillascience.github.io/working-open-workshop/assets/images/science-fox.svg
-[link_leancanvas]: https://app.leanstack.com/canvases/p/2e4a5016-7fb5-4c77-b1cf-ed65518b7603
-[link_impostersyndrome]: https://en.wikipedia.org/wiki/Impostor_syndrome
+[link_Rute]: https://aariops.github.io/
+[link_openleaderscohort]: https://foundation.mozilla.org/en/opportunity/mozilla-open-leaders/
