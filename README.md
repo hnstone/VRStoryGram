@@ -35,7 +35,7 @@ Our goal is to:
 
 ## WHO IS ON THE TEAM?
 
-The founder of VRStoryGram - [Heather][link_Heather], is an invited member of the [Open Leaders Cohort][link_openleaderscohort] Also working on VRStoryGram are [Kary][link_Kary] and [Julien][link_Julien].
+The founder of VRStoryGram - [Heather][link_Heather], is an invited member of the [Open Leaders Cohort][link_openleaderscohort] Also working on VRStoryGram is [Julien][link_Julien].
 
 <a href="https://www.mozillascience.org/about">
   <img
@@ -72,7 +72,6 @@ Thank you so much (Danke schön! Merci beaucoup!) for visiting the project and w
 
 
 [link_Heather]: http://www.drhstone.com
-[link_Kary]: https://www.linkedin.com/in/kary-ritter-025ba633
 [link_Julien]: https://www.linkedin.com/in/julienbonin
 [link_Rute]: https://aariops.github.io/
 [link_openleaderscohort]: https://foundation.mozilla.org/en/opportunity/mozilla-open-leaders/
