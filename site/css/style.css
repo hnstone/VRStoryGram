@@ -1,0 +1,381 @@
+@charset "UTF-8";
+
+/*** SITE TEMPLATE - Start ***/
+html {
+  height: 100vh;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 0% auto 0%;
+  grid-template-rows: 10vh auto 5vh;
+  grid-template-areas:
+    "header header header"
+    ". content_div ."
+    "footer footer footer";
+
+  height: 85%;
+  background-color: #eceaea;
+}
+/*** NAVIGATION ***/
+header {
+  display: grid;
+  grid-area: header;
+  grid-template-columns: 5% 10% auto auto auto auto 5%;
+  grid-template-areas:
+    ". logo_div nav_1_div nav_2_div nav_3_div nav_4_div .";
+
+  background-color: #C92A47;
+  border-style: solid;
+  text-align: center;
+  align-content: center;
+  height: auto;
+  font-size: small;
+}
+.logo_div {
+  display: grid;
+  grid-area: logo_div;
+  text-align: center;
+
+  margin: 20%;
+}
+.logo_div img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  vertical-align: middle;
+
+  border-style: groove;
+  border-width: thin;
+  border-color: black;
+}
+.nav_1_div {
+  display: grid;
+  grid-area: nav_1_div;
+}
+.nav_2_div {
+  display: grid;
+  grid-area: nav_2_div;
+}
+.nav_3_div {
+  display: grid;
+  grid-area: nav_3_div;
+}
+.nav_4_div {
+  display: grid;
+  grid-area: nav_4_div;
+}
+.nav_1_div a, .nav_2_div a, .nav_3_div a, .nav_4_div a {
+  display: grid;
+  align-content: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 25px;
+  color: black;
+  margin: 5%;
+}
+
+.nav_1_div a:hover, .nav_2_div a:hover, .nav_3_div a:hover, .nav_4_div a:hover {
+  color: lightgrey;
+}
+
+/*** CONTENT ***/
+.content_div {
+  display: grid;
+  grid-area: content_div;
+  grid-template-rows: auto;
+  grid-template-columns: auto;
+  grid-template-areas: " index_content_div ";
+  background-color: #ffffff;
+  height: auto;
+  min-height: 85vh;
+}
+
+/*** FOOTER ***/
+footer {
+  display: grid;
+  grid-area: footer;
+  grid-template-columns: 5% 30% auto 5%;
+  grid-template-areas:
+    ". social_media_div . .";
+
+  background-color: #C92A47;
+  border-style: solid;
+  border-color: black;
+}
+.social_media_div {
+  display: grid;
+  grid-template-rows: 40% auto;
+  grid-area: social_media_div;
+  grid-template-areas: 
+  " social_text social_icons ";
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.social_media_div h2 {
+  display: grid;
+  grid-area: social_text;
+  text-align: center;
+  align-content: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  color: white;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 30%;
+  font-size: 20px;
+}
+.social_media_icon_div {
+  display: grid;
+  grid-area: social_icons;
+  grid-template-columns: auto auto auto auto;
+  align-items: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: auto;
+}
+
+.social_media_icon_div a {
+  display: grid;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.secondary_nav_div {
+  grid-area: secondary_nav_div;
+}
+/* social media icons */
+.fa {
+  padding: 3px;
+  font-size: 15px;
+  width: 13px;
+  text-align: center;
+  text-decoration: none;
+  margin: 1px 4px;
+  
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  border-radius: 50%;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  border-radius: 50%;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+  border-radius: 50%;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+  border-radius: 50%;
+}
+/*** SITE TEMPLATE - End ***/
+
+/*** INDEX.php ***/
+.index_content_div {
+  display: grid;
+  grid-area: index_content_div;
+  grid-template-rows: auto 35%;
+  grid-template-areas:
+  " featured_content "
+  " newest_content ";
+  border-style: solid;
+  border-top: none;
+  border-bottom: none;
+  overflow: hidden;
+  overflow-y: scroll;
+
+}
+.featured_content {
+  grid-area: featured_content;
+  background-color: white;
+  height: 100%;
+  
+}
+.newest_content {
+  display: grid;
+  grid-area: newest_content;
+  grid-template-rows: 20% auto;
+  background-color: darkgrey;
+  border-top: solid;
+}
+.newest_content h1 {
+  text-align: center;
+  margin-top: 1%;
+}
+.latest_item_div {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-column-gap: 1%;
+  width: auto;
+  margin: 1%;
+}
+.latest_item_1, .latest_item_2, .latest_item_3, .latest_item_4 {
+  border-style: solid;
+}
+/*****************/
+
+/*** ABOUT.php ***/
+.about_content_div {
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+}
+
+.profile_1_div, .profile_2_div, .profile_3_div, .profile_4_div {
+  display: grid;
+  border-left: solid;
+  border-right: solid;
+  border-bottom: solid;
+  grid-template-columns: 25% 75%;
+  height: 100%;
+}
+.profile_1_text_div, .profile_2_text_div, .profile_3_text_div, .profile_4_text_div {
+  display: grid;
+  grid-template-rows: 25% 75%;
+  grid-row-gap: 5px;
+}
+
+.profile_1_img, .profile_2_img {
+  margin: auto;
+}
+
+.profile_1_img img, .profile_2_img img {
+  width: 200px;
+  height: 200px;
+}
+
+/****************/
+
+/*** CREATEACCOUNT.php ***/
+.createAccount_content_div {
+  display: grid;
+  grid-template-columns: 85% 15%;
+  height: 100%;
+
+  border-style: solid;
+  border-top: none;
+}
+
+.new_account_div {
+  display: grid;
+  grid-template-rows: 20% auto;
+  text-align: center;
+  align-content: center;
+}
+
+.new_account_div form {
+  display: grid;
+  grid-template-columns: 20% 70%;
+  border-style: solid;
+
+  margin: auto;
+  background-color: lightgray;
+  width: 65%;
+  box-shadow: 10px 10px 5px darkgray;
+  padding: 10px;
+
+  align-items: center;
+}
+
+.userType_Radio_Input {
+  display: grid;
+  max-width: 50%;
+  grid-template-columns: auto auto;
+}
+
+.new_account_div input {
+  margin: 5px;
+}
+
+.go_to_login_div {
+  display: grid;
+  border-left: solid;
+}
+
+.go_to_login_div a {
+  color: #000;
+  margin: auto;
+}
+
+.Account_Data_Agreement {
+  grid-area: data_agreement;
+  border-style: solid;
+}
+
+/****************/
+
+
+/*** README.php ***/
+.readme_content_div {
+  display: block;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+.readme_content_div h1, .readme_content_div p, .readme_content_div ul, .readme_content_div h4 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  width: 90%;
+  margin: auto;
+  padding: 10px;
+}
+.readme_content_div h1 {
+  font-weight: normal;
+}
+/***************/
+
+/*** LOGIN.php ***/
+.login_content_div {
+  display: grid;
+  grid-template-columns: 30% auto 30%;
+  grid-template-rows: 10% auto 40%;
+  grid-template-areas:
+    ". . ."
+    ". form_div ."
+    ". . .";
+
+  height: 100%;
+  border-left: solid;
+  border-right: solid;
+  border-bottom: solid;
+  align-items: center;
+}
+.form_div {
+  display: grid;
+  grid-area: form_div;
+  border-style: solid;
+  background-color: lightgray;
+  height: 50%;
+  box-shadow: 10px 10px 5px darkgray;
+}
+.form_div form {
+  display: grid;
+  grid-template-columns: 20% 75%;
+  grid-template-rows: auto auto auto;
+
+  text-align: center;
+  align-items: center;
+}
+/***************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* */

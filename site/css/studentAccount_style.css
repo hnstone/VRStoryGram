@@ -1,0 +1,235 @@
+@charset "UTF-8";
+
+body {
+  display: grid;
+  grid-template-rows: auto auto;
+
+  height: 100vh;
+  background-color: darkgrey;
+
+  align-items: center;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 25% auto 20% 20%;
+  background-color: #C92A47;
+  height: 10vh;
+  width: 99%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  border-radius: 25px;
+  box-shadow: 0px 3px 10px;
+}
+
+.title, .userName_ID, .createButton, .editButton {
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 10px;
+  text-align: center;
+}
+
+.title {
+  margin-left: 0px;
+  text-align: right;
+}
+
+.userName_ID {
+  text-align: left;
+}
+
+.title p1 {
+  font-size: 40px;
+}
+
+.userName_ID p1 {
+  font-size: 30px;
+}
+
+.content {
+  height: 85vh;
+  margin-top: 5px;
+  width: 99%;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  background-color: white;
+
+  overflow: hidden;
+  overflow-y: scroll;
+
+}
+
+.five button, .createButton button, .editButton button {
+  border-radius: 25px;
+  background-color: lightgrey;
+  font-size: 24px;
+  box-shadow: 1px 1px 2px;
+  cursor: pointer;
+}
+
+.five button {
+  margin-left: 30%;
+  margin-right: 30%;
+  height: 80%;
+}
+
+.Storygram_Popup {
+  position: absolute;
+  border-style: solid;
+  background-color: lightgrey;
+  width: 600px;
+  height: 500px;
+  margin-left: 25%;
+  top: 20%;
+  display: none;
+}
+.Storygram_Popup form {
+  display: grid;
+  grid-template-rows: auto auto auto auto auto; 
+  height: 100%;
+}
+.Storygram_Popup form div {
+  display: grid;
+  padding: 10px;
+}
+.Storygram_Popup img, a {
+  height: 10px;
+  width: 10px;
+  margin-left: 96%;
+}
+.description_input {
+  resize: none;
+  min-width: 400px;
+  min-height: 200px;
+}
+.four {
+  grid-template-columns: 15% 85%;
+
+}
+
+.four label {
+  margin-top: auto;
+  margin-bottom: auto;
+
+}
+.four input {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+
+
+
+
+.Edit_Popup {
+  position: absolute;
+  border-style: solid;
+  background-color: lightgrey;
+  width: 400px;
+  height: 450px;
+  
+  left: 50%;
+  margin-left: -200px;
+  top: 20%;
+  display: none;
+}
+
+
+.Edit_Popup form {
+  display: grid;
+  grid-template-rows: auto auto auto auto auto auto auto auto;
+  height: 100%;
+}
+.seven, .eight, .nine, .ten, .eleven, .twelve {
+  display: grid;
+  grid-template-columns: 15% auto auto;
+  padding: 10px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.Edit_Popup label, .Edit_Popup input, .Edit_Popup button {
+  margin: auto;
+}
+
+.six {
+  display: grid;
+}
+
+.Edit_Popup img, a {
+  height: 10px;
+  width: 10px;
+  margin-left: 93%;
+}
+
+.userStorygrams {
+  border-style: solid;
+  display: grid;
+  grid-template-columns: 300px auto 10%;
+  grid-template-areas:
+  "storygramScene title_description_div storygramEdit";
+}
+
+.storygramScene {
+  height: 250px;
+  width: 300px;
+  grid-area: storygramScene;
+
+  border-style: ridge;
+  }
+.title_description_div {
+  grid-area: title_description_div;
+  display: grid;
+  grid-template-rows: 20% 80%;
+
+}
+.title_description_div p1, p2 {
+  border-style: solid;
+  margin-left: 10px;
+}
+.title_description_div p1 {
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.title_description_div p2 {
+  margin: 20px;
+}
+
+/*
+.storygramTitle {
+  grid-area: storygramTitle;
+
+  vertical-align: middle;
+
+  border-style: solid;
+  text-align: center;
+}
+
+.storygramDescription {
+  grid-area: storygramDescription;
+
+  border-style: solid;
+
+}
+*/
+
+
+
+.storygramEdit {
+  grid-area: storygramEdit;
+
+  width: 100px;
+  height: 100px;
+
+  margin: auto;
+}
+
+
+
+

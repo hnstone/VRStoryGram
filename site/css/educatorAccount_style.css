@@ -1,0 +1,221 @@
+@charset "UTF-8";
+
+body {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 100px 250px 300px 300px;
+  grid-template-areas:
+    " one "
+    " two "
+    " three "
+    " four ";
+
+  grid-row-gap: 5px;
+  width: auto;
+  height: 103%;
+}
+
+.one {
+  display: grid;
+  grid-area: one;
+  grid-template-columns: 20% 70% 10%;
+  grid-template-areas:
+  " one_one . one_icon";
+
+  height: auto;
+  width: auto;
+
+  background-color: #eceaea;
+}
+.one img {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  border-style: solid;
+}
+.one_icon {
+  grid-area: one_icon;
+  margin: auto;
+}
+.one_one {
+  grid-area: one_one;
+  margin: auto;
+}
+.one_one p1 {
+  text-transform: uppercase;
+  text-shadow: 1px 1px lightgrey;
+  font-family: serif;
+  font-size: 25px;
+}
+
+.two {
+  display: grid;
+  grid-area: two;
+  grid-template-columns: 20% 30% auto 20%;
+  grid-template-rows:  auto auto;
+  grid-template-areas:
+  " two_image two_username two_space1 two_edit "
+  " two_image two_bio two_space1 two_edit ";
+
+  height: auto;
+  width: auto;
+  background-color: #C92A47;
+}
+.two_image {
+  grid-area: two_image;
+  margin: auto;
+}
+.two_image img {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  border-style: solid;
+}
+.two_space1 {
+  grid-area: two_space1;
+}
+.two_username {
+  grid-area: two_username;
+  margin-top: auto;
+}
+.two_username p1 {
+  font-size: 30px;
+}
+.two_bio {
+  grid-area: two_bio;
+  font-size: 20px;
+}
+.two_edit {
+  grid-area: two_edit;
+  margin: auto;
+}
+.two_edit button {
+  font-size: 20px;
+
+}
+
+.three {
+  grid-area: three;
+  grid-template-rows: 30% auto;
+  grid-template-areas:
+  " three_assignments "
+  " three_one ";
+
+  height: auto;
+  width: auto;
+  background-color: #eceaea;
+
+}
+.three_assignments {
+  grid-area: three_assignments;
+  text-align: center;
+}
+.three_assignments p1 {
+  font-size: 40px;
+  text-decoration: underline;
+}
+.three_one {
+  display: grid;
+  grid-area: three_one;
+  grid-template-columns: auto auto auto auto;
+  grid-template-areas:
+  " assignment_1 assignment_2 assignment_3 assignment_4 ";
+
+  grid-column-gap: 5%;
+  height: 80%;
+  width: 90%;
+  margin: auto;
+}
+.assignment_1 {
+  grid-area: assignment_1;
+  border-style: solid;
+  height: auto;
+  border-radius: 10%;
+
+}
+.assignment_2 {
+  grid-area: assignment_2;
+  border-style: solid;
+  height: auto;
+  border-radius: 10%;
+
+}
+.assignment_3 {
+  grid-area: assignment_3;
+  border-style: solid;
+  height: auto;
+  border-radius: 10%;
+
+}
+.assignment_4 {
+  grid-area: assignment_4;
+  border-style: solid;
+  height: auto;
+  border-radius: 10%;
+
+}
+
+.four {
+  grid-area: four;
+  grid-template-rows: 30% auto;
+  grid-template-areas:
+  " four_myStories "
+  " four_one ";
+
+  height: auto;
+  width: auto;
+  background-color: #eceaea;
+}
+
+.four_myStories {
+  grid-area: four_myStories;
+  text-align: center;
+}
+.four_myStories p1 {
+  font-size: 40px;
+  text-decoration: underline;
+
+}
+
+.four_one {
+  display: grid;
+  grid-area: four_one;
+  grid-template-columns: auto auto auto auto;
+  grid-template-areas:
+  " story_1 story_2 story_3 story_4 ";
+
+  grid-column-gap: 5%;
+  height: 80%;
+  width: 90%;
+  margin: auto;
+
+}
+
+.story_1 {
+  grid-area: story_1;
+  border-style: solid;
+  height: auto;
+
+  border-radius: 10%;
+}
+.story_2 {
+  grid-area: story_2;
+  border-style: solid;
+  height: auto;
+  border-radius: 10%;
+
+}
+.story_3 {
+  grid-area: story_3;
+  border-style: solid;
+  height: auto;
+  border-radius: 10%;
+
+}
+.story_4 {
+  grid-area: story_4;
+  border-style: solid;
+  height: auto;
+  border-radius: 10%;
+
+}

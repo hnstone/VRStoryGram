@@ -1,0 +1,64 @@
+body canvas {
+    cursor: move;
+    cursor: -moz-grab;
+    cursor: -webkit-grab;
+    cursor: grab;
+}
+
+.grabbable:active { 
+    cursor: -moz-grabbing;
+    cursor: -webkit-grabbing;
+    cursor: grabbing;
+}
+
+body {
+    background-color: #000000;
+}
+
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 30px;
+  height: 30px;
+  margin: -25px 0 0 -25px;
+  border: 10px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 10px solid #0080e5;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.cover {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    overflow: hidden;
+    background-color: #000000;
+}
+
+.annotation-text-texture {
+    font-family: Arial;
+    width: 512px;
+    height: 170px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: -2;
+    overflow: hidden;
+}
+
