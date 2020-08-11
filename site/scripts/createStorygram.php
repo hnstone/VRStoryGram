@@ -1,7 +1,7 @@
 <?php
 
 include "db_connection.php";
-include "redirect.php";
+include "site.php";
 
 $userID = $_POST['userID'];
 $title = $_POST['title'];
