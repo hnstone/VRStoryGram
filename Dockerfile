@@ -10,7 +10,7 @@ COPY sshd_config /tmp/sshd_config.in
 
 COPY site /var/www/html/
 
-ADD https://github.com/hnstone/Credentials/blob/master/db_connection.php /var/www/html/site/scripts
+#ADD https://github.com/hnstone/Credentials/blob/master/db_connection.php /var/www/html/site/scripts
 
 RUN echo "installing" \
     && apt update \
