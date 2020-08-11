@@ -6,7 +6,9 @@
   <link rel="stylesheet" href="/css/studentAccount_style.css">
   <?php $userID=$_GET['userID']; include "../scripts/site.php"; include "../scripts/student_homepage_script.php";?>
   <script src="/scripts/site.js"></script>
-  <script src="https://aframe.io/releases/0.9.0/aframe.min.js"></script>
+  <!--<script src="https://aframe.io/releases/0.9.0/aframe.min.js"></script>--> 
+  <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+
 </head>
 
 <body>
