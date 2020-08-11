@@ -7,7 +7,7 @@ FROM mattrayner/lamp:latest-1604-php7
 SHELL ["/bin/bash", "-c"]
 
 COPY sshd_config /tmp/sshd_config.in
-
+COPY php.ini /etc/php/7.4/apache2/php.ini
 COPY site /var/www/html/
 
 #ADD https://github.com/hnstone/Credentials/blob/master/db_connection.php /var/www/html/site/scripts
