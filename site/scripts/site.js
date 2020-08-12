@@ -89,6 +89,13 @@ function eventAction(plane, ring) {
     }
 }
 
+function setIndexFormat() {
+    let box = document.getElementById('box');
+    while (true) {
+        
+    }
+}
+
 
 
 

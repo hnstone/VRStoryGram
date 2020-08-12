@@ -2,7 +2,7 @@
 
 /*** SITE TEMPLATE - Start ***/
 html {
-  height: 100vh;
+  /*height: 100vh;*/
 }
 
 body {
@@ -14,7 +14,7 @@ body {
     ". content_div ."
     "footer footer footer";
 
-  height: 85%;
+  height: 100vh;
   background-color: #eceaea;
 }
 /*** NAVIGATION ***/
