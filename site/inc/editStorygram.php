@@ -4,7 +4,7 @@
 <head>
     <link rel='stylesheet' href='/css/editStorygram.css'>
     <?php include '../scripts/site.php';?>
-    <script src='https://aframe.io/releases/0.9.0/aframe.min.js'></script>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
     <script type="module">import * as THREE from 'https://threejs.org/build/three.js';</script>
     <script src="/scripts/site.js"></script>
 </head>
