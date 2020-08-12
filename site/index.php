@@ -38,15 +38,7 @@
   </div>
 
   <footer>
-    <div class="social_media_div">
-      <h2>Get Social!</h2>
-      <div class="social_media_icon_div">
-        <a href="#" class="fa fa-facebook"></a>
-        <a href="#" class="fa fa-youtube"></a>
-        <a href="#" class="fa fa-instagram"></a>
-        <a href="#" class="fa fa-twitter"></a>
-      </div>
-    </div>
+    
   </footer>
 
 </body>
